@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  body {
+    background: linear-gradient(to right, pink, red);
+  }
+  #wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #fun {
+    width: 50vw;
+    height: 50vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+  }
+  .theNumber {
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .numbersToClick {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .option {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e3e3e3;
+    border: 2px solid;
+    margin: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.45s;
+  }
+  .option:hover{
+      background-color: #000;
+      color: #fff;
+  }    
