@@ -39,8 +39,8 @@ let randomshow = Math.floor(Math.random()*10)
          
 
         loading.innerHTML = randomshow
+        
         showoption()
-
         clearInterval(interval)
 
     }
